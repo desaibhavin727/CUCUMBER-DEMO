@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="27.381681">
+    <testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario" time="21.23641">
+        <system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "desaibhavin" and "911993Sai"..............................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user moves to new contact page.........................................passed
+Then user enters contact details "Tom" and "Peter" and "Manager"............passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario 2" time="6.145271">
+        <failure message="org.junit.ComparisonFailure: expected:&lt;[CRMPRO - CRM software for customer relationship management, sales, and support.]&gt; but was:&lt;[Privacy error]&gt;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:117)&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:146)&#10;&#9;at stepDefination.LoginStepDefination.title_of_login_page_is_Free_CRM(LoginStepDefination.java:36)&#10;&#9;at ✽.When title of login page is Free CRM(/Volumes/personal data/NIKUL QA/Selenium_WorkSpace/CucumberPractice/src/main/java/features/contacts.feature:6)&#10;"><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................failed
+Then user enters "desaibhavin" and "911993Sai"..............................skipped
+Then user clicks on login button............................................skipped
+Then user is on home page...................................................skipped
+Then user moves to new contact page.........................................skipped
+Then user enters contact details "David" and "Dsouza" and "Director"........skipped
+Then Close the browser......................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[CRMPRO - CRM software for customer relationship management, sales, and support.]> but was:<[Privacy error]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefination.LoginStepDefination.title_of_login_page_is_Free_CRM(LoginStepDefination.java:36)
+	at ✽.When title of login page is Free CRM(/Volumes/personal data/NIKUL QA/Selenium_WorkSpace/CucumberPractice/src/main/java/features/contacts.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>
