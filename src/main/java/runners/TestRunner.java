@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"/Volumes/personal data/NIKUL QA/Selenium_WorkSpace/CucumberPractice/src/main/java/features/contacts.feature"},//the path of the feature files
+		features = {"/Volumes/personal data/NIKUL QA/Selenium_WorkSpace/CucumberPractice/src/main/java/features/Deals.feature"},//the path of the feature files
 		glue={"stepDefination"},//step Defination Package Name
 		plugin= {"pretty","html:test-output", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"},
 		monochrome = true, //display the console output in a proper readable format
